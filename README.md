@@ -13,20 +13,22 @@ I'm an Information Technology student at Towson University working toward an ent
 | # | Ticket | Issue | Root cause | Link |
 |---|--------|-------|------------|------|
 | 01 | INC0012847 | Remote user can't reach the Marketing shared drive | VPN was disconnected | [Entry 01](entries/01-marketing-shared-drive-vpn.md) |
+| 02 | INC0012871 | Customer Support PC completely dead, agent can't take calls | Not diagnosed. Replaced the desktop instead | [Entry 02](entries/02-dead-desktop-replacement.md) |
 
 More entries get added as I finish and write them up.
 
 ## Format of each entry
 
+Every entry follows the same flow, and the sections shift a little depending on the ticket:
+
 1. What the user reported
-2. What I checked (steps, in order)
-3. Root cause
+2. What I checked or decided, in order, with screenshots
+3. Root cause (or what was still unknown)
 4. Resolution
 5. How I confirmed it was fixed
-6. Knowledge base note
-7. What I learned / what I'd do differently
-8. When I'd escalate, and to whom
-9. Evidence (screenshots)
+6. Knowledge base notes
+7. What I learned
+8. Limitations
 
 ## Skills practiced so far
 
@@ -36,6 +38,10 @@ More entries get added as I finish and write them up.
 - VPN and remote-access troubleshooting
 - Verifying a fix and confirming with the user before closing
 - Writing knowledge base notes and escalation notes
+- Looking up equipment in an asset management tool
+- Reading internal documentation to choose a deployment method
+- Imaging a replacement workstation (Server Imaging, PXE boot) and shipping it with a return label
+- Prioritizing getting a blocked user working again, and noting what is still undiagnosed
 
 ## Notes
 
